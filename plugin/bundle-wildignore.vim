@@ -2,6 +2,7 @@
 if exists('g:loaded_bundle_wildignore')
   finish
 endif
+let g:loaded_bundle_wildignore=1
 " -------------------------------------------------------------------------- }}}
 " {{{ The wild, wild, west
 set wildignore+=Ankh.NoLoad
