@@ -1,10 +1,13 @@
 " {{{ bundle-wildignore.vim 
+
 if exists('g:loaded_bundle_wildignore')
   finish
 endif
 let g:loaded_bundle_wildignore=1
+
 " -------------------------------------------------------------------------- }}}
 " {{{ The wild, wild, west
+
 set wildignore+=Ankh.NoLoad
 set wildignore+=*.aps
 set wildignore+=*.aux
@@ -55,6 +58,4 @@ set wildignore+=*.user
 set wildignore+=*.vspscc
 set wildignore+=*.vssscc
 
-" Tab-complete files.
-set wildmode=list:longest,full
 " -------------------------------------------------------------------------- }}}
